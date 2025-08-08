@@ -32,7 +32,7 @@ const BlogCard = ({ blog }) => {
                 alt={`${blog.author} avatar`}
                 className="w-6 h-6 rounded-full"
               />
-              <span className="text-lg">{blog.author}</span>
+              <span className="text-lg">{blog.author}</span>//a
             </div>
             <img src={blog.Dot} alt="Dot" className="w-1 h-1" />
             <span>{new Date(blog.createdAt).toDateString()}</span>

@@ -18,7 +18,7 @@ const Home = () => {
       <section className="px-6 md:px-10 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-2 py-4">
           {blogData.map((blog) => (
-            <BlogCard key={blog.id} blog={blog} />
+            <BlogCard key={blog.id} blog={blog} />//card
           ))}
         </div>
         <div className="flex justify-center m-10">

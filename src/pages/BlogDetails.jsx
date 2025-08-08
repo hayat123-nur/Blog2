@@ -20,7 +20,7 @@ const BlogDetails = () => {
     if (isBookmarked) {
       setBookmarked(bookmarked.filter((b) => b.id !== blog.id));
     } else {
-      setBookmarked([...bookmarked, blog]); // ✅ Only add the selected blog
+      setBookmarked([...bookmarked, blog]);
     }
   };
 
